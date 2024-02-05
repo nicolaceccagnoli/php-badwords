@@ -44,6 +44,10 @@
         <?php echo $replaced; ?>
     </h3>
 
+    <br>
+    <br>
+    <br>
+
     <h5>
         Numero di caratteri con censura: <?php echo $replacedLength; ?>
     </h5>

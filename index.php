@@ -28,9 +28,9 @@
                 <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
 
                 <label for="censored">
-                    Scrivi una parola da nascondere
+                    Scrivi la parola che vuoi nascondere
                 </label>
-                <input type="text" name="censored" id="censored" value="censored">
+                <input type="text" name="censored" id="censored">
 
                 <button>
                     INVIA
