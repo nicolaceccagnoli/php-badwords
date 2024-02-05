@@ -1,9 +1,15 @@
 <?php
 
+    // Intercetto i parametri da stampare in pagina
     $paragrafo = $_GET['textarea'];
     $censored = $_GET['censored'];
 
+    // Utilizzo una funzione per contare il numero di caratteri digitati dall'utente nella textarea
     $length = strlen($paragrafo);
+
+    // Utilizzo una funzione per sostituire il valore digitato dall'utente nell'input
+    $replaced = str_replace($censored, '****',  $paragrafo);
+    $replacedLength = strlen($replaced);
 
 ?>
 
@@ -35,8 +41,13 @@
     </p>
 
     <h3>
-        <?php echo $censored; ?>
+        <?php echo $replaced; ?>
     </h3>
+
+    <h5>
+        Numero di caratteri con censura: <?php echo $replacedLength; ?>
+    </h5>
+
 </div>
 
 </body>

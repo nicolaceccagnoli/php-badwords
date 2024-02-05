@@ -30,7 +30,7 @@
                 <label for="censored">
                     Scrivi una parola da nascondere
                 </label>
-                <input type="text" name="censored" id="censored" value="">
+                <input type="text" name="censored" id="censored" value="censored">
 
                 <button>
                     INVIA
