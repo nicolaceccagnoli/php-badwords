@@ -18,7 +18,8 @@
 
     <main>
         <div class="container">
-            <form action="#" method="GET">
+
+            <form action="./about.php" method="GET">
 
                 <label for="textarea">
                     Scrivi un testo
@@ -30,6 +31,10 @@
                     Scrivi una parola da nascondere
                 </label>
                 <input type="text" name="censored" id="censored" value="">
+
+                <button>
+                    INVIA
+                </button>
             </form>
         </div>
     </main>
